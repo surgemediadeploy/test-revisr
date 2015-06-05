@@ -1,0 +1,431 @@
+{
+    "key": "group_55062b68d4cfd",
+    "title": "Quote",
+    "fields": [
+        {
+            "key": "field_55062b71bbfb1",
+            "label": "Proposal Date",
+            "name": "proposal_date",
+            "prefix": "",
+            "type": "date_picker",
+            "instructions": "Date in which the final product needs to be delivered.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y",
+            "return_format": "m\/d\/Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_55062b9fbbfb2",
+            "label": "Proposals",
+            "name": "proposals",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "this is a more detailed description \/ drop down box where text can be inserted.\r\nThe video will be shot in a style and colour that will carry through the look and feel of ********company x  appendix A). The video will be heavily brand driven. This video will feature interviews with anne gibs and do wanker. They will be shot interview style not look at the camera Surge media will have a second camera as a profile shot.\r\n\r\nThe video will consist of shots like:\r\nBe great if we can have lots of boxes of different shot styles, and we just go through a select which ones are relevant. Below are some example but I imaging a lot more. Probably need a few custom fields at the end. \r\n\r\n\u00bb Crew working in work shop and on location;\r\n\u00bb Wide  exteriors shot of locations\r\n\u00bb Interior\/office  environment \r\n\u00bb Wide shots of substations,\r\n\u00bb Power stations, chemical plants;\r\n\u00bb Crew working \r\n\u00bb Inside shot of location\r\n\u00bb Out side shots of location \r\n\u00bb Interviews\r\n\u00bb Piece to camera \r\n\u00bb products shots and so on.",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_55062bbdbbfb3",
+            "label": "Current Status",
+            "name": "status",
+            "prefix": "",
+            "type": "number_slider",
+            "instructions": "How Far complete your product is",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "slider_units": "%",
+            "default_value": 0,
+            "slider_min_value": 1,
+            "slider_max_value": 100,
+            "increment_value": 1
+        },
+        {
+            "key": "field_55062cfdbbfb4",
+            "label": "Description",
+            "name": "description",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Please describe the required work in more detail",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55062d31bbfb5",
+            "label": "Videos to be Completed",
+            "name": "videos_to_be_completed",
+            "prefix": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1": 1,
+                "2": 2,
+                "3": 3,
+                "4": 4,
+                "5": 5,
+                "6": 6,
+                "7": 7,
+                "8": 8,
+                "9": 9,
+                "10": 10
+            },
+            "default_value": [
+                1
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_55062db169438",
+            "label": "Duration of Video",
+            "name": "duration_of_video",
+            "prefix": "",
+            "type": "number",
+            "instructions": "an approximation of how long you require the video to be in seconds",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55062f0380687",
+            "label": "Storyboard",
+            "name": "storyboard",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Visually describe your proposition",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": []
+        },
+        {
+            "key": "field_55062f69c3537",
+            "label": "Logo Animation",
+            "name": "logo_animation",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "How would you like your logo animation in the video? (if any)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_55062fbec3538",
+                    "label": "Logo Style",
+                    "name": "logo_style",
+                    "prefix": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Standard Logo Animation": "Standard Logo Animation",
+                        "Advanced Logo Animation": "Advanced Logo Animation"
+                    },
+                    "default_value": {
+                        "": ""
+                    },
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                },
+                {
+                    "key": "field_55062fefc3539",
+                    "label": "Hours Required",
+                    "name": "hours_required",
+                    "prefix": "",
+                    "type": "number",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 1,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "min": "",
+                    "max": "",
+                    "step": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_550630119d17f",
+            "label": "Motion Graphics",
+            "name": "motion_graphics",
+            "prefix": "",
+            "type": "repeater",
+            "instructions": "Select the customization for your motion graphics.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_550630259d180",
+                    "label": "graphics style",
+                    "name": "graphics_style",
+                    "prefix": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Standard": "Standard",
+                        "Video Editing": "Video Editing"
+                    },
+                    "default_value": {
+                        "": ""
+                    },
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "disabled": 0,
+                    "readonly": 0
+                }
+            ]
+        },
+        {
+            "key": "field_5506306c3c275",
+            "label": "Script",
+            "name": "script",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "The script is the \u201cblueprint\u201d for the production process. It contains all the video and audio. A common format is\r\nto present in a multiple column format with the narration or dialogue in the first column and the description of\r\nthe actions in the second column. \r\n",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_550631033c277",
+            "label": "Product Delivery",
+            "name": "product_delivery",
+            "prefix": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "YouTube": "uploaded to our account and sent to you",
+                "Vimeo": "uploaded to our account and sent to you",
+                "Television TVC": "Delivered to you",
+                "Television (Rural)": "Delivered to you",
+                "USB": "Delivered to you",
+                "Data on disk": "Delivered to you",
+                "DVD": "Delivered to you",
+                "Website": "Delivered to you"
+            },
+            "default_value": {
+                "": ""
+            },
+            "layout": "vertical"
+        },
+        {
+            "key": "field_550631886e790",
+            "label": "Talent and Casting",
+            "name": "talent_and_casting",
+            "prefix": "",
+            "type": "select",
+            "instructions": "The casting process involves sourcing the talent (presenters, actors, voice over artists, etc) for the production.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "": ""
+            },
+            "default_value": {
+                "": ""
+            },
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_55067580b7f31",
+            "label": "Comments",
+            "name": "comments",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55067c8de1f24",
+            "label": "cost",
+            "name": "cost",
+            "prefix": "",
+            "type": "number",
+            "instructions": "Total cost of the Project.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "quote"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "modified": 1426488486
+}
