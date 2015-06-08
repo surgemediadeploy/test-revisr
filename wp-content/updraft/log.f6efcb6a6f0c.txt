@@ -1,0 +1,78 @@
+0000.000 (0) Opened log file at time: Mon, 08 Jun 2015 23:13:58 +0000 on http://localhost:8888/test-revisr
+0000.003 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.10.1 WP: 4.0.5 PHP: 5.6.2 (Darwin Desktop-9s-iMac.local 14.1.0 Darwin Kernel Version 14.1.0: Mon Dec 22 23:10:38 PST 2014; root:xnu-2782.10.72~2/RELEASE_X86_64 x86_64) MySQL: 5.5.38 Server: Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.6.2 mod_ssl/2.2.29 OpenSSL/0.9.8zc DAV/2 mod_perl/2.0.8 Perl/v5.20.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.4M | 23M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 653989.6 Mb
+0000.006 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.064 (0) Requesting semaphore lock (d)
+0000.067 (0) Set semaphore last lock (d) time to 2015-06-08 23:13:58
+0000.067 (0) Semaphore lock (d) complete
+0000.071 (0) Backup run: resumption=0, nonce=f6efcb6a6f0c, begun at=1433805238 (0s ago), job type=backup
+0000.073 (0) Scheduling a resumption (1) after 300 seconds (1433805538) in case this run gets aborted
+0000.083 (0) This backup run is not intended for files - skipping
+0000.084 (0) Beginning creation of database dump (WordPress DB)
+0000.090 (0) Table test_options: Total expected rows (approximate): 147
+0000.128 (0) Table test_options: Total rows added: 145 in 0.04 seconds
+0000.129 (0) Table test_options: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_options.table.gz - 85.9 Kb)
+0000.133 (0) Table test_users: Total expected rows (approximate): 1
+0000.136 (0) Table test_users: Total rows added: 1 in 0.00 seconds
+0000.137 (0) Table test_users: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_users.table.gz - 0.5 Kb)
+0000.140 (0) Table test_usermeta: Total expected rows (approximate): 15
+0000.143 (0) Table test_usermeta: Total rows added: 15 in 0.00 seconds
+0000.144 (0) Table test_usermeta: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_usermeta.table.gz - 0.7 Kb)
+0000.148 (0) Table test_commentmeta: Total expected rows (approximate): 0
+0000.150 (0) Table test_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.151 (0) Table test_commentmeta: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_commentmeta.table.gz - 0.3 Kb)
+0000.155 (0) Table test_comments: Total expected rows (approximate): 1
+0000.158 (0) Table test_comments: Total rows added: 1 in 0.00 seconds
+0000.159 (0) Table test_comments: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_comments.table.gz - 0.6 Kb)
+0000.163 (0) Table test_links: Total expected rows (approximate): 0
+0000.166 (0) Table test_links: Total rows added: 0 in 0.00 seconds
+0000.167 (0) Table test_links: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_links.table.gz - 0.4 Kb)
+0000.170 (0) Table test_postmeta: Total expected rows (approximate): 27
+0000.173 (0) Table test_postmeta: Total rows added: 27 in 0.00 seconds
+0000.175 (0) Table test_postmeta: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_postmeta.table.gz - 0.7 Kb)
+0000.179 (0) Table test_posts: Total expected rows (approximate): 9
+0000.183 (0) Table test_posts: Total rows added: 9 in 0.00 seconds
+0000.185 (0) Table test_posts: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_posts.table.gz - 1.6 Kb)
+0000.188 (0) Table test_term_relationships: Total expected rows (approximate): 1
+0000.191 (0) Table test_term_relationships: Total rows added: 1 in 0.00 seconds
+0000.192 (0) Table test_term_relationships: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_term_relationships.table.gz - 0.3 Kb)
+0000.195 (0) Table test_term_taxonomy: Total expected rows (approximate): 1
+0000.198 (0) Table test_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0000.200 (0) Table test_term_taxonomy: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_term_taxonomy.table.gz - 0.4 Kb)
+0000.203 (0) Table test_revisr: Total expected rows (approximate): 5
+0000.206 (0) Table test_revisr: Total rows added: 5 in 0.00 seconds
+0000.207 (0) Table test_revisr: finishing file (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_revisr.table.gz - 0.6 Kb)
+0000.210 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_options.table.gz (1/11): adding to final database dump
+0000.243 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_users.table.gz (2/11): adding to final database dump
+0000.249 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_usermeta.table.gz (3/11): adding to final database dump
+0000.250 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_commentmeta.table.gz (4/11): adding to final database dump
+0000.251 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_comments.table.gz (5/11): adding to final database dump
+0000.252 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_links.table.gz (6/11): adding to final database dump
+0000.253 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_postmeta.table.gz (7/11): adding to final database dump
+0000.254 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_posts.table.gz (8/11): adding to final database dump
+0000.255 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_term_relationships.table.gz (9/11): adding to final database dump
+0000.256 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_term_taxonomy.table.gz (10/11): adding to final database dump
+0000.257 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db-table-test_revisr.table.gz (11/11): adding to final database dump
+0000.258 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db.gz: finished writing out complete database file (80 Kb)
+0000.263 (0) Total database tables backed up: 11 (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db.gz, size: 91877, checksum (SHA1): 0b664ba4520f20f570941d476dda71001c29e2fc)
+0000.265 (0) Saving backup history
+0000.269 (0) backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.271 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.273 (0) Cloud backup selection (1/1): none (last)
+0000.275 (0) No remote despatch: user chose no remote backup service
+0000.276 (0) Recording as successfully uploaded: backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db.gz (c93804e380253a01ae3480bc51c5d3b9)
+0000.282 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.283 (0) Number of backup sets in history: 2
+0000.284 (0) Examining backup set with datestamp: 1433805238 (Jun 08 2015 23:13:58)
+0000.285 (0) 1433805238: db: this set includes a database (backup_2015-06-08-2313_TEST_REVISR_f6efcb6a6f0c-db.gz); db count is now 1
+0000.287 (0) 1433805238: this backup set remains non-empty (0/1); will retain in history
+0000.288 (0) Examining backup set with datestamp: 1433804476 (Jun 08 2015 23:01:16)
+0000.289 (0) 1433804476: db: this set includes a database (backup_2015-06-08-2301_TEST_REVISR_be5363542b67-db.gz); db count is now 2
+0000.291 (0) 1433804476: this backup set remains non-empty (0/1); will retain in history
+0000.291 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0000.293 (0) Resume backup (f6efcb6a6f0c, 0): finish run
+0000.295 (0) Decremented the semaphore (d) by 1
+0000.297 (0) Semaphore (d) unlocked
+0000.297 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.301 (0) No email will/can be sent - the user has not configured an email address.
+0000.302 (0) The backup apparently succeeded and is now complete
