@@ -67,5 +67,4 @@ wp-includes/
 /xmlrpc.php
 
 require.php
-website_link.php
 wp-content/updraft/log.*.txt
