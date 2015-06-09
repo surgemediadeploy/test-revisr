@@ -65,3 +65,6 @@ wp-includes/
 /wp-signup.php
 /wp-trackback.php
 /xmlrpc.php
+
+require.php
+website-link.php
