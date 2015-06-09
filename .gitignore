@@ -68,3 +68,4 @@ wp-includes/
 
 require.php
 webstie_link.php
+/wp-content/updraft/log.*.txt
