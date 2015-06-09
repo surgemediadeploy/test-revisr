@@ -1,4 +1,4 @@
 <?php
-define('WP_HOME','http://localhost:8888/test-revisr/');
-define('WP_SITEURL','http://localhost:8888/test-revisr/');
+define('WP_HOME','http://test.surgehost.com.au/');
+define('WP_SITEURL','http://test.surgehost.com.au/');
 ?>
