@@ -10,7 +10,8 @@ if (!defined('DB_PASSWORD')) {
 	define('DB_PASSWORD', 'P@ssw0rd!TS');
 }
 if (!defined('DB_HOST')) {
-	define('DB_HOST', '192.168.0.51');
+	define('DB_HOST', 'localhost');
+/**	define('DB_HOST', '192.168.0.51'); */
 }
 
 /** Database Charset to use in creating database tables. */
