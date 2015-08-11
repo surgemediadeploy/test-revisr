@@ -1,16 +1,17 @@
 <?php 
 // Global DB config
 if (!defined('DB_NAME')) {
-	define('DB_NAME', 'basetheme');
+	define('DB_NAME', 'wptest_testingwp');
 }
 if (!defined('DB_USER')) {
-	define('DB_USER', 'basetheme');
+	define('DB_USER', 'wptest_surge');
 }
 if (!defined('DB_PASSWORD')) {
-	define('DB_PASSWORD', 'basetheme');
+	define('DB_PASSWORD', 'P@ssw0rd!TS');
 }
 if (!defined('DB_HOST')) {
 	define('DB_HOST', 'localhost');
+/**	define('DB_HOST', '192.168.0.51'); */
 }
 
 /** Database Charset to use in creating database tables. */
