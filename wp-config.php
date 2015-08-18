@@ -14,6 +14,9 @@
  * @package WordPress
  */
  
+define('WP_HOME','http://localhost:8888/test_deployment/');
+define('WP_SITEURL','http://localhost:8888/test_deployment/');
+
 /*====================================
 =            LOCAL CONFIG            =
 ====================================*/
